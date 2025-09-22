@@ -61,7 +61,7 @@ export default function ThanhToanPage() {
   })
 
   // Dịch vụ thông tin
-  const services: Record<string, ServiceInfo> = {
+  const services = {
     hosting: {
       name: 'Hosting Cao Cấp',
       price: 150000,
